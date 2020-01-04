@@ -1,0 +1,12 @@
+.button-schedule {
+  background-color: $brown-dark;
+  color: $white;
+  padding: 20px 15px;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $brown;
+    color: $white;
+    text-decoration: none;
+  }
+}

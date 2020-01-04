@@ -1,0 +1,49 @@
+.navbar { 
+  background-color: $white;
+  color: $black;
+  justify-content: center;
+}
+
+.navbar-nav {
+  align-items: center;
+  background-color: $white;
+  color: $black;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.nav-item {
+  &.nav-link {
+    color: $black;
+
+    &:hover {
+      color: $gray;
+    }
+  }
+}
+
+.navbar-brand {
+  img {
+    max-width: 150px;
+  }
+}
+
+.header-note {
+  align-items: baseline;
+  background-color: $brown;
+  color: $white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

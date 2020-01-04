@@ -1,0 +1,34 @@
+.jumbotron {
+
+  &.jumbotron-home {
+    align-items: center;
+    background-position: center 25%;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+
+    &:before {
+      background: linear-gradient(rgba(255, 255, 255, 0.30));
+      z-index: 10;
+      content: ' ';
+      display: block;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+
+    svg {
+      max-width: 500px;
+      z-index:20;
+    }
+
+    .button-schedule {
+      z-index: 20;
+    }
+  }
+}
