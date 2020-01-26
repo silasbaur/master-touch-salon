@@ -31,12 +31,12 @@
 }
 
 .header-note {
-  align-items: baseline;
+  align-items: center;
   background-color: $brown;
   color: $white;
   display: flex;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 15px;
 
   a {
     color: $white;
@@ -45,5 +45,9 @@
     &:hover {
       color: $white;
     }
+  }
+
+  p {
+    margin: 0;
   }
 }

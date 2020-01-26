@@ -12,3 +12,12 @@ $gray: #333;
 .row {
   overflow: hidden;
 }
+
+.row-flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
