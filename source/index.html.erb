@@ -4,7 +4,22 @@
 
 <div class="jumbotron jumbotron-home m-0" style="background-image: url(images/waiting-room.jpg);">
   <%= partial "partials/svg/grey-logo-est" %>
-  <a class="button-schedule" href="#">Book Your Appointment</a>
+  <button class="button-schedule" href="#" type="button" data-toggle="modal" data-target="#exampleModal">Book Your Appointment</button>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Book an Appointment</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <script type="text/javascript" src="https://www.schedulicity.com/api/public/widget/MTSUYA/embed"></script>
+    </div>
+  </div>
+</div>
+
 </div>
 
 <div class="container-fluid">
@@ -22,7 +37,7 @@
     <div class="col-lg-6">
       <div class="row">
         <div class="col-md-6 home-img-box img-fluid" style="background-image: url(images/owner.jpg)"></div>
-        <div class="col-md-6 home-text-box">
+        <div id="owner" class="col-md-6 home-text-box">
           <p class="text-uppercase">Owner</p>
           <p>Deya Masters and her family have continuously updated and improved the space and services over the last 14 years to make sure that the salon always offers a best-in-class experience for its customers.</p>
         </div>

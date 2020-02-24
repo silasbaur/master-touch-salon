@@ -3,6 +3,8 @@
   &.jumbotron-home {
     align-items: center;
     background-position: center 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     height: 600px;
