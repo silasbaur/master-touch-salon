@@ -15,8 +15,10 @@
 }
 
 .nav-item {
-  &.nav-link {
+  .nav-link {
     color: $black;
+    font-family: futura;
+    font-weight: normal;
 
     &:hover {
       color: $gray;
@@ -30,24 +32,12 @@
   }
 }
 
-.header-note {
-  align-items: center;
-  background-color: $brown;
-  color: $white;
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
+.navbar-toggler {
+  right: 0px;
+  top: 10px;
 
-  a {
-    color: $white;
-    text-decoration: none;
-
-    &:hover {
-      color: $white;
-    }
-  }
-
-  p {
-    margin: 0;
+  svg {
+    height: 20px;
+    width: 20px;
   }
 }

@@ -1,13 +1,46 @@
-<nav class="navbar">
-  <div class="navbar-nav">
-    <a class="nav-item nav-link" href="#owner">About Us</a>
-    <a class="nav-item nav-link" href="#">Services</a>
-    <a class="nav-item nav-link" href="#">Products</a>
-    <a class="navbar-brand" href="/">
+<nav class="navbar navbar-expand-lg position-relative">
+
+<!--  Show this only on mobile to medium screens  -->
+  <a class="navbar-brand d-lg-none m-0" href="/">
+    <img src="images/logo.jpg">
+  </a>
+
+  <button class="navbar-toggler position-absolute" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+    <%= partial "partials/svg/menu-icon.svg" %>
+  </button>
+
+<!--  Use flexbox utility classes to change how the child elements are justified  -->
+  <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+
+    <ul class="navbar-nav d-flex flex-column flex-lg-row">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Us</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#owner">Owner</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#barber">Barber</a>
+      </li>
+    </ul>
+    
+    
+<!--   Show this only lg screens and up   -->
+    <a class="navbar-brand d-none d-lg-block" href="/">
       <img src="images/logo.jpg">
     </a>
-    <a class="nav-item nav-link" href="#">Gallery</a>
-    <a class="nav-item nav-link" href="#">Hours</a>
-    <a class="nav-item nav-link" href="#">Contact</a>
+    
+    
+    <ul class="navbar-nav d-flex flex-column flex-lg-row">
+      <li class="nav-item">
+        <a class="nav-link" href="#products">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#hours-contact">Hours &amp; Contact</a>
+      </li>
+    </ul>
   </div>
 </nav>

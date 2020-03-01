@@ -2,4 +2,20 @@
     font-family: futura;
     font-weight: normal;
     src: url('/assets/fonts/futura/Futura-Medium.woff') format('WOFF');
-  }
+}
+
+@font-face {
+    font-family: futura;
+    font-weight: bold;
+    src: url('/assets/fonts/futura/Futura-Bols.woff') format('WOFF');
+}
+
+.font-futura {
+  font-family: futura;
+  font-weight: normal;
+}
+
+.font-futura-bold {
+  font-family: futura;
+  font-weight: bold;
+}
