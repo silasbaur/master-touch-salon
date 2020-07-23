@@ -60,6 +60,26 @@
     <div class="col-lg-6 home-text-box py-5 px-3">
       <p class="text-uppercase font-futura">Services</p>
       <p>We offer a wide range of services, including precision haircutting, dimensional and corrective color, foil highlighting, as well as waxing and extensions. We also have a barber shop in the salon for the men that want a traditional barbering experience.</p>
+      <button type="button" class="btn btn-sm button-schedule" data-toggle="modal" data-target="#pricingModal">
+        Click here for Pricing
+      </button>
+      <div class="modal fade" id="pricingModal" role="dialog" aria-labelledby="pricingModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="pricingModalLabel">Pricing</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <iframe height="600" class="w-100" src="./pdf/Menu.pdf" ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
     <div class="col-lg-6 home-img-box d-none d-lg-block img-fluid" style="background-image: url(images/hair.jpg)"></div>
   </div>
