@@ -34,7 +34,6 @@
   </div>
 
   <div class="row">
-
     <div class="col-lg-6" id="owner">
       <div class="row">
         <div class="col-md-6 home-img-box img-fluid" style="background-image: url(images/owner.jpg)"></div>
@@ -54,8 +53,13 @@
         <div class="col-md-6 home-img-box d-none d-md-block d-lg-none img-fluid" style="background-image: url(images/barber.jpg)"></div>
       </div>
     </div>
+  </div>
 
-  <div class="row w-100 m-0" id="services">
+  <div class="row">
+    <%= partial "partials/carousel.html" %>
+  </div>
+
+  <div class="row" id="services">
     <div class="col-lg-6 home-img-box d-lg-none img-fluid" style="background-image: url(images/hair.jpg)"></div>
     <div class="col-lg-6 home-text-box py-5 px-3">
       <p class="text-uppercase font-futura">Services</p>
@@ -84,7 +88,7 @@
     <div class="col-lg-6 home-img-box d-none d-lg-block img-fluid" style="background-image: url(images/hair.jpg)"></div>
   </div>
 
-  <div class="row w-100 m-0" id="products">
+  <div class="row" id="products">
   <div class="col-lg-6 home-img-box img-fluid" style="background-image: url(images/products.jpg)"></div>
     <div class="col-lg-6 home-text-box py-5 px-3">
       <p class="text-uppercase font-futura">Products</p>

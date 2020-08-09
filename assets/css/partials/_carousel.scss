@@ -1,0 +1,21 @@
+.carousel {
+  max-height: 500px;
+}
+
+.carousel-image {
+  background-size: contain;
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.carousel-item {
+  &.active {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+
+  }
+}
