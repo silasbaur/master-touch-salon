@@ -57,10 +57,8 @@ title: Masters Touch Salon
   </div>
 
   <div class="row" id="services">
-    <%= partial "partials/carousel.html" %>
-  </div>
-
-  <div class="row" id="services">
+    <div class="col-md-6 p-0 d-lg-none d-block"><%= partial "partials/carousel.html" %></div> 
+    <div class="align-items-center col-md-6 d-flex">
     <div class="home-text-box py-5">
       <p class="text-uppercase font-futura">Services</p>
       <p>We offer a wide range of services, including precision haircutting, dimensional and corrective color, foil highlighting, as well as waxing and extensions. We also have a barber shop in the salon for the men that want a traditional barbering experience.</p>
@@ -85,6 +83,8 @@ title: Masters Touch Salon
       </div>
       </div>
     </div>
+    </div> 
+    <div class="col-md-6 p-0 d-lg-block d-none"><%= partial "partials/carousel.html" %></div> 
   </div>
 
   <div class="row" id="products">
